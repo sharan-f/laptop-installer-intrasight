@@ -1,0 +1,18 @@
+C:\testapp\Intrasight Laptop Installer\Intrasight Laptop Installer\bin\Debug\net6.0-windows\Intrasight Laptop Installer.exe
+C:\testapp\Intrasight Laptop Installer\Intrasight Laptop Installer\bin\Debug\net6.0-windows\Intrasight Laptop Installer.deps.json
+C:\testapp\Intrasight Laptop Installer\Intrasight Laptop Installer\bin\Debug\net6.0-windows\Intrasight Laptop Installer.runtimeconfig.json
+C:\testapp\Intrasight Laptop Installer\Intrasight Laptop Installer\bin\Debug\net6.0-windows\Intrasight Laptop Installer.dll
+C:\testapp\Intrasight Laptop Installer\Intrasight Laptop Installer\bin\Debug\net6.0-windows\ref\Intrasight Laptop Installer.dll
+C:\testapp\Intrasight Laptop Installer\Intrasight Laptop Installer\bin\Debug\net6.0-windows\Intrasight Laptop Installer.pdb
+C:\testapp\Intrasight Laptop Installer\Intrasight Laptop Installer\obj\Debug\net6.0-windows\Intrasight Laptop Installer.csproj.AssemblyReference.cache
+C:\testapp\Intrasight Laptop Installer\Intrasight Laptop Installer\obj\Debug\net6.0-windows\Intrasight_Laptop_Installer.download_form.resources
+C:\testapp\Intrasight Laptop Installer\Intrasight Laptop Installer\obj\Debug\net6.0-windows\Intrasight Laptop Installer.csproj.GenerateResource.cache
+C:\testapp\Intrasight Laptop Installer\Intrasight Laptop Installer\obj\Debug\net6.0-windows\Intrasight Laptop Installer.GeneratedMSBuildEditorConfig.editorconfig
+C:\testapp\Intrasight Laptop Installer\Intrasight Laptop Installer\obj\Debug\net6.0-windows\Intrasight Laptop Installer.AssemblyInfoInputs.cache
+C:\testapp\Intrasight Laptop Installer\Intrasight Laptop Installer\obj\Debug\net6.0-windows\Intrasight Laptop Installer.AssemblyInfo.cs
+C:\testapp\Intrasight Laptop Installer\Intrasight Laptop Installer\obj\Debug\net6.0-windows\Intrasight Laptop Installer.csproj.CoreCompileInputs.cache
+C:\testapp\Intrasight Laptop Installer\Intrasight Laptop Installer\obj\Debug\net6.0-windows\Intrasight Laptop Installer.dll
+C:\testapp\Intrasight Laptop Installer\Intrasight Laptop Installer\obj\Debug\net6.0-windows\ref\Intrasight Laptop Installer.dll
+C:\testapp\Intrasight Laptop Installer\Intrasight Laptop Installer\obj\Debug\net6.0-windows\Intrasight Laptop Installer.pdb
+C:\testapp\Intrasight Laptop Installer\Intrasight Laptop Installer\obj\Debug\net6.0-windows\Intrasight Laptop Installer.genruntimeconfig.cache
+C:\testapp\Intrasight Laptop Installer\Intrasight Laptop Installer\obj\Debug\net6.0-windows\Intrasight_Laptop_Installer.Properties.Resources.resources
