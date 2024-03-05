@@ -45,18 +45,23 @@ namespace Intrasight_Laptop_Installer
 
         private void btn_install_Click(object sender, EventArgs e)
         {
-            //Stopping and deleting PSC services
-            updateLabel("Stopping and deleting PSC services");
-            runCommand("net stop pscservicehost");
-            runCommand("sc delete pscservicehost");
-        
+        //Stopping and deleting PSC services
+         updateLabel("Stopping and deleting PSC services");
+         runCommand("net stop pscservicehost");
+          runCommand("sc delete pscservicehost");
 
 
-            //Stopping and deleting Audit Trail services
-            updateLabel("Stopping and deleting Audit Trail services");
-             runCommand("net stop IPF-AuditTrailService");
-             runCommand("sc delete IPF-AuditTrailService");
-            
+
+        //Stopping and deleting Audit Trail services
+        updateLabel("Stopping and deleting Audit Trail services");
+         runCommand("net stop IPF-AuditTrailService");
+         runCommand("sc delete IPF-AuditTrailService");
+
+        //Deleting all files and folder under ProgramData\Philips
+        deleteRecursively(@"C:\ProgramData\Philips\My Web Sites");
+
+
+
         }
 
         private void runCommand(string command)
@@ -103,6 +108,42 @@ namespace Intrasight_Laptop_Installer
         private void updateLabel(string executedStep)
         {
             label2.Text = executedStep;
+        }
+
+        private void deleteRecursively(string path)
+        { 
+
+            // Delete all files
+            string[] files = Directory.GetFiles(path);
+            foreach (string file in files)
+            {
+                try
+                {
+                    File.Delete(file);
+                    Console.WriteLine($"Deleted file: {file}");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Failed to delete file {file}: {ex.Message}");
+                }
+            }
+
+            // Delete all subdirectories and their files
+            string[] subdirectories = Directory.GetDirectories(path);
+            foreach (string directory in subdirectories)
+            {
+                try
+                {
+                    Directory.Delete(directory, true); // Recursive deletion
+                    Console.WriteLine($"Deleted directory: {directory}");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Failed to delete directory {directory}: {ex.Message}");
+                }
+            }
+
+            Console.WriteLine("Deletion completed.");
         }
     }
 }
